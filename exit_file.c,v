@@ -1,0 +1,32 @@
+head	1.1;
+access;
+symbols;
+locks
+	root:1.1; strict;
+comment	@ * @;
+
+
+1.1
+date	2015.08.26.15.05.32;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#include"header.h"
+#include"prototype.h"
+void exit_file()
+{
+        printf("In %s:\n",__func__);
+        exit(EXIT_FAILURE);
+}
+
+@

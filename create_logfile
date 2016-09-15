@@ -1,0 +1,19 @@
+#! /bin/bash
+
+rlog mdc.c              >  $1
+rlog compress.c         >> $1
+rlog compress_file2.c   >> $1
+rlog compress_file3.c   >> $1
+rlog compress_file4.c   >> $1
+rlog compress_file5.c   >> $1
+rlog compress_file6.c   >> $1
+rlog compress_file7.c   >> $1
+rlog header.h           >> $1
+rlog prototype.h        >> $1
+rlog decompress.c       >> $1
+rlog open_cfile.c       >> $1
+rlog u_masterarray.c    >> $1
+rlog prototype.h        >> $1
+rlog prototyddpe.h        >> $1
+rlog prototype.h        >> $1
+rlog prototype.h        >> $1

@@ -1,0 +1,265 @@
+head	1.11;
+access;
+symbols;
+locks
+	root:1.11; strict;
+comment	@ * @;
+
+
+1.11
+date	2015.07.27.19.03.20;	author root;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2015.07.27.18.24.55;	author root;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2015.07.27.18.17.44;	author root;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2015.07.22.07.10.50;	author root;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2015.07.21.14.47.08;	author root;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2015.07.21.14.44.18;	author root;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2015.07.21.14.43.25;	author root;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2015.07.21.14.35.11;	author root;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2015.07.15.07.55.33;	author root;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2015.07.12.12.00.57;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2015.07.12.11.53.03;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@create a fun to decompress the data.
+@
+
+
+1.11
+log
+@*** empty log message ***
+@
+text
+@#include"header.h"
+#include"prototype.h"
+int decompress()
+{
+	printf("%s\n",__func__);
+	int cl,len,ret,fd;
+	char *arr;
+	fd=open_file();
+        arr=create_masterarray(fd);
+        len=strlen(arr);
+        printf("string length= %d\n",len);
+	cl = c_length(len);
+	close(fd);
+	fd = open_cfile();
+	switch(cl)
+	{
+		case 2:
+			ret=decompress2(fd,arr,len);
+			if(ret<0)
+			printf("compress2 failed");
+			break;
+		case 3:
+			ret=decompress3(fd,arr,len);
+			if(ret<0)
+			printf("compress3 failed");
+			break;
+		case 4:
+			ret=decompress4(fd,arr,len);
+			if(ret<0)
+			printf("compress4 failed");
+			break;
+		case 5:
+			ret=decompress5(fd,arr,len);
+			if(ret<0)
+			printf("compress5 failed");
+			break;
+		case 6:
+			ret=decompress6(fd,arr,len);
+			if(ret<0)
+			printf("compress6 failed");
+			break;
+		case 7:
+			ret=decompress7(fd,arr,len);
+			if(ret<0)
+			printf("compress2 failed");
+			break;
+		default:
+			printf("incorrect code length\n");
+	}
+	close(fd);
+	return 0;
+}
+@
+
+
+1.10
+log
+@*** empty log message ***
+@
+text
+@d13 2
+@
+
+
+1.9
+log
+@*** empty log message ***
+@
+text
+@d16 1
+a16 1
+			ret=decompress2(arr,len);
+d21 1
+a21 1
+			ret=decompress3(arr,len);
+d26 1
+a26 1
+			ret=decompress4(arr,len);
+d31 1
+a31 1
+			ret=decompress5(arr,len);
+d36 1
+a36 1
+			ret=decompress6(arr,len);
+d41 1
+a41 1
+			ret=decompress7(arr,len);
+@
+
+
+1.8
+log
+@*** empty log message ***
+@
+text
+@d48 1
+@
+
+
+1.7
+log
+@fimd the code length to decompress the file.
+@
+text
+@d16 1
+a16 1
+			ret=decompress2(fd,arr,len);
+d21 1
+a21 1
+			ret=decompress3(fd,arr,len);
+d26 1
+a26 1
+			ret=decompress4(fd,arr,len);
+d31 1
+a31 1
+			ret=decompress5(fd,arr,len);
+d36 1
+a36 1
+			ret=decompress6(fd,arr,len);
+d41 1
+a41 1
+			ret=decompress7(fd,arr,len);
+@
+
+
+1.6
+log
+@*** empty log message ***
+@
+text
+@d8 4
+a11 2
+	fd=create_masterarray();
+	len = lseek(fd,0,SEEK_END);
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@d8 1
+a8 1
+	fd=create_materarray();
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d8 1
+a8 1
+	fd=open_file();
+@
+
+
+1.3
+log
+@create a decompress file to decompress the fie.
+@
+text
+@d8 1
+a8 1
+	fd=open_cfile();
+@
+
+
+1.2
+log
+@include function definition.
+@
+text
+@d5 41
+a45 1
+	printf("IN %s\n",__func__);
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d3 1
+d5 1
+a5 1
+	printf("%s\n",__func__);
+@

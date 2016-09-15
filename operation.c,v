@@ -1,0 +1,59 @@
+head	1.2;
+access;
+symbols;
+locks
+	root:1.2; strict;
+comment	@ * @;
+
+
+1.2
+date	2015.08.29.10.56.01;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2015.08.26.15.05.33;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@#include"header.h"
+#include"prototype.h"
+int operation(int choice)
+{
+        switch(choice)
+        {
+                case 1:
+                        compress();
+                        break;
+                case 2:
+                        decompress();
+                        break;
+                case 333:
+                        exit_file();
+                default:
+                        printf("enter the correct choice:\n");
+                        break;
+        }
+}
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d13 1
+a13 1
+                case 3:
+@

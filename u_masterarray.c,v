@@ -1,0 +1,79 @@
+head	1.2;
+access;
+symbols;
+locks
+	root:1.2; strict;
+comment	@ * @;
+
+
+1.2
+date	2015.07.13.07.11.53;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2015.07.13.07.07.13;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@make unique master array of compress file.
+@
+
+
+1.2
+log
+@print file name.
+@
+text
+@#include"header.h"
+#include"prototype.h"
+char* u_masterarray(int fd)
+{
+        printf("IN %s\n",__func__);
+	int i,count=1;
+        int j;
+        char ch, *arr= NULL;
+        arr=(char*)realloc(arr,i+1);
+        int flag=0;
+        i=0;
+        while(count!=0)
+        {
+                count =read(fd,&ch,1);
+                printf("%d \n",count);
+                if(ch==10)
+                break;
+                for(j=0;j<i;j++)
+                {
+                         if( ch==*(arr+j))
+                        {
+                                flag = 1;
+                                break;
+                        }
+                }
+
+                if(flag==0)
+                {
+                *(arr+i) = ch;
+                i++;
+                }
+                flag=0;
+
+        }
+        printf("%s\n",arr);
+        return arr;
+}
+
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d5 2
+a6 1
+        int i,count=1;
+@

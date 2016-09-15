@@ -1,0 +1,493 @@
+head	1.23;
+access;
+symbols;
+locks
+	root:1.23; strict;
+comment	@ * @;
+
+
+1.23
+date	2015.07.12.11.57.59;	author root;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2015.07.12.11.52.38;	author root;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2015.07.12.11.09.33;	author root;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2015.07.12.11.00.10;	author root;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2015.07.12.10.55.11;	author root;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2015.07.12.10.48.52;	author root;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2015.07.07.16.27.04;	author root;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2015.06.29.13.29.28;	author root;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2015.06.29.13.25.10;	author root;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2015.06.29.13.19.42;	author root;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2015.06.29.12.00.06;	author root;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2015.06.26.15.35.55;	author root;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2015.06.26.15.32.04;	author root;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2015.06.26.15.27.34;	author root;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2015.06.26.13.51.01;	author root;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2015.06.26.13.36.00;	author root;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2015.06.26.11.44.24;	author root;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2015.06.26.11.22.59;	author root;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2015.06.26.11.20.45;	author root;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2015.06.26.11.04.49;	author root;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2015.06.26.11.02.56;	author root;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2015.06.26.10.58.10;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2015.06.26.09.21.16;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@here ,also all command for compress insert into scripting file
+@
+
+
+1.23
+log
+@include semicolon.
+@
+text
+@#include"header.h"
+#include"prototype.h"
+int compress()
+{
+	printf("%s\n",__func__);
+	int cl,len,ret,fd;
+	char *arr;
+	fd=open_file();
+        arr=create_masterarray(fd);
+	len=strlen(arr);
+	printf("string length= %d\n",len);
+	s_masterarray(arr,len);	
+	cl=c_length(len);
+	switch(cl)
+	{
+		case 2:
+			ret=compress2(fd,arr,len);
+			if(ret<0)
+			printf("compress2 failed");
+			break;
+		case 3:
+			ret=compress3(fd,arr,len);
+			if(ret<0)
+			printf("compress3 failed");
+			break;
+		case 4:
+			ret=compress4(fd,arr,len);
+			if(ret<0)
+			printf("compress4 failed");
+			break;
+		case 5:
+			ret=compress5(fd,arr,len);
+			if(ret<0)
+			printf("compress5 failed");
+			break;
+		case 6:
+			ret=compress6(fd,arr,len);
+			if(ret<0)
+			printf("compress6 failed");
+			break;
+		case 7:
+			ret=compress7(fd,arr,len);
+			if(ret<0)
+			printf("compress2 failed");
+			break;
+		default:
+			printf("incorrect code length\n");
+	}
+	return 0;
+}
+@
+
+
+1.22
+log
+@include macro.
+@
+text
+@d5 1
+a5 1
+	printf("%s\n".__func__)
+@
+
+
+1.21
+log
+@arr declared as a char pointer.
+@
+text
+@d5 1
+@
+
+
+1.20
+log
+@arr declare as a pointer.
+@
+text
+@d5 2
+a6 1
+	int cl,len,ret,fd,*arr;
+@
+
+
+1.19
+log
+@*** empty log message ***
+@
+text
+@d5 1
+a5 1
+	int cl,len,ret,fd,arr;
+@
+
+
+1.18
+log
+@call the all fun() here which is require for compress data.
+@
+text
+@d6 2
+a9 2
+	fd=open_file();
+        arr=create_masterarray(fd);
+@
+
+
+1.17
+log
+@include default case.
+@
+text
+@d3 1
+a3 1
+int compress(int fd,char* arr)
+d5 1
+a5 1
+	int cl,len,ret;
+d8 2
+a47 1
+
+@
+
+
+1.16
+log
+@*** empty log message ***
+@
+text
+@d42 2
+a47 1
+
+@
+
+
+1.15
+log
+@*** empty log message ***
+@
+text
+@d6 1
+@
+
+
+1.14
+log
+@*** empty log message ***
+@
+text
+@d7 2
+a8 1
+	s_masterarray(arr,len);cl=c_length(len);
+@
+
+
+1.13
+log
+@*** empty log message ***
+@
+text
+@a5 1
+	len =strlen(arr);
+d7 1
+a7 1
+	cl=c_length(len);
+@
+
+
+1.12
+log
+@remove the curly bracket from switch statement.
+also remove the last break statement.
+@
+text
+@a8 1
+	cl=4;
+@
+
+
+1.11
+log
+@include another print statement at before the the end of switch statement.
+@
+text
+@d15 2
+a16 4
+			{
+				printf("compress2 failed");
+				break;
+			}
+d20 2
+a21 4
+			{
+				printf("compress3 failed");
+				 break;
+			}
+d25 2
+a26 4
+			{
+				printf("compress4 failed");
+				 break;
+			}
+d30 2
+a31 4
+			{
+				printf("compress5 failed");
+				 break;
+			}
+d35 2
+a36 4
+			{
+				printf("compress6 failed");
+				 break;
+			}
+d40 2
+a41 5
+			{
+				printf("compress2 failed");
+				 break;
+			}
+		break;
+@
+
+
+1.10
+log
+@include the break statement of each stage in compress file.
+@
+text
+@d54 1
+@
+
+
+1.9
+log
+@*** empty log message ***
+@
+text
+@d17 1
+d24 1
+d31 1
+d38 1
+d45 1
+d52 1
+a53 1
+	break;
+@
+
+
+1.8
+log
+@created 7 another compress file .
+however code length is diffrent.
+the way of compress is diffrent.
+@
+text
+@d9 1
+@
+
+
+1.7
+log
+@print a string length.
+print a code length at a time
+@
+text
+@d5 1
+a5 1
+	int cl,len;
+d7 42
+a48 2
+	printf("string length= %d",len);
+	c_length(len);
+@
+
+
+1.6
+log
+@print a string length
+@
+text
+@d7 1
+a7 1
+	printf("code length= %d",len);
+a8 1
+	cl=c_length(len);
+@
+
+
+1.5
+log
+@string length is find
+@
+text
+@d7 1
+a7 1
+	printf("code length= %d")
+@
+
+
+1.4
+log
+@keyword ekey is replaced with arr.
+because here master array is required.
+@
+text
+@d7 1
+@
+
+
+1.3
+log
+@here,prototype declaration is given
+@
+text
+@d3 1
+a3 1
+int compress(int fd,char* ekey)
+@
+
+
+1.2
+log
+@there is the use string length and code length in compress file
+master array has also required for compress file.
+pointer of master array has passed as argument.
+@
+text
+@d2 1
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d2 1
+a2 1
+int compress(int fd,int ekey)
+d4 4
+a7 14
+	int ch,ch1,k;
+	int count,count1;
+	printf("compress file is:\n");
+	fd=open("file",O_RDONLY);
+	printf("%d",fd);
+	k=1;
+	ekey=("new",O_RDONLY);
+	printf("%d",ekey);
+	count=read(fd,&ch,k);
+	printf("%d\n",count);
+	count1=read(ekey,&ch1,k);
+	printf("%d",count1);
+	if(ch==ch1)
+	printf("loc. is =%d\n",k);
+d9 1
+d11 1
+@

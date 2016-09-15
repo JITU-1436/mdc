@@ -1,0 +1,41 @@
+head	1.1;
+access;
+symbols;
+locks
+	root:1.1; strict;
+comment	@ * @;
+
+
+1.1
+date	2015.07.13.06.05.24;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@create a another file to save master array.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#include"header.h"
+#include"prototype.h"
+int s_masterarray(char *arr ,int i)
+{
+
+        int ekey;
+        ekey=open("new",O_WRONLY|O_CREAT);
+        printf(" ekey=%d\n",ekey);
+        if(ekey==-1)
+        {
+                printf("open in file error");
+                return 0;
+        }
+        write(ekey,arr,i);
+}
+
+@

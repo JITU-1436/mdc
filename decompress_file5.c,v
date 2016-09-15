@@ -1,0 +1,81 @@
+head	1.4;
+access;
+symbols;
+locks
+	root:1.4; strict;
+comment	@ * @;
+
+
+1.4
+date	2015.07.27.18.27.22;	author root;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2015.07.22.07.12.59;	author root;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2015.07.20.11.12.59;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2015.07.20.10.59.56;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@when cl is 4 then file is decompress.
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@#include"header.h"
+#include"prototype.h"
+int decompress5(int fd, char* arr , int len)
+{
+	printf("compress5 file is:\n");
+	return 0;
+}
+
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d3 1
+a3 1
+int decompress5( char* arr , int len)
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d3 1
+a3 1
+int decompress5(int fd , char* arr , int len)
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d5 1
+a5 1
+	printf("compress2 file is:\n");
+@

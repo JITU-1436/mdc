@@ -1,0 +1,32 @@
+head	1.1;
+access;
+symbols;
+locks
+	root:1.1; strict;
+comment	@ * @;
+
+
+1.1
+date	2015.06.27.08.18.45;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#include"header.h"
+#include"prototype.h"
+int compress7(int fd , char* arr , int len) 
+{
+	printf("compress7 file is:\n");
+	return 0;
+}
+
+@

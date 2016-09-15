@@ -1,0 +1,85 @@
+head	1.4;
+access;
+symbols;
+locks
+	root:1.4; strict;
+comment	@ * @;
+
+
+1.4
+date	2015.06.27.08.10.44;	author root;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2015.06.26.15.22.17;	author root;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2015.06.26.13.58.13;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2015.06.26.13.26.27;	author ravikumar;	state Exp;
+branches;
+next	;
+
+
+desc
+@compress file is created.
+>> wenever code length is found then file is compressed in compressed file 1
+@
+
+
+1.4
+log
+@change name.
+@
+text
+@#include"header.h"
+#include"prototype.h"
+int compress2(int fd , char* arr , int len)
+{
+	printf("compress2 file is:\n");
+	return 0;
+}
+
+@
+
+
+1.3
+log
+@pass the argument.
+@
+text
+@d3 1
+a3 1
+int compress3(int fd , char* arr , int len)
+d5 1
+a5 1
+	printf("compress3 file is:\n");
+@
+
+
+1.2
+log
+@include.
+@
+text
+@d3 1
+a3 1
+int compress3(int , char* , int)
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d5 1
+a5 1
+	printf("compress3 file is:\n")
+@

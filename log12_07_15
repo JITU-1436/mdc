@@ -1,0 +1,622 @@
+
+RCS file: mdc.c,v
+Working file: mdc.c
+head: 1.10
+branch:
+locks: strict
+	root: 1.10
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 10;	selected revisions: 10
+description:
+----------------------------
+revision 1.10	locked by: root;
+date: 2015/07/13 06:04:43;  author: root;  state: Exp;  lines: +0 -54
+remove all part which is not require in mdc file.
+----------------------------
+revision 1.9
+date: 2015/07/12 12:43:01;  author: root;  state: Exp;  lines: +0 -47
+*** empty log message ***
+----------------------------
+revision 1.8
+date: 2015/07/12 12:20:26;  author: root;  state: Exp;  lines: +13 -16
+*** empty log message ***
+----------------------------
+revision 1.7
+date: 2015/07/12 12:11:15;  author: root;  state: Exp;  lines: +3 -1
+include end of line.
+----------------------------
+revision 1.6
+date: 2015/07/12 12:08:22;  author: root;  state: Exp;  lines: +14 -7
+include ehile loop to enter the choice again and again.
+----------------------------
+revision 1.5
+date: 2015/07/12 11:51:56;  author: root;  state: Exp;  lines: +11 -1
+call the main fun().
+----------------------------
+revision 1.4
+date: 2015/07/12 11:19:48;  author: root;  state: Exp;  lines: +2 -0
+include the header file.
+----------------------------
+revision 1.3
+date: 2015/07/12 11:14:43;  author: root;  state: Exp;  lines: +1 -2
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2015/07/12 10:48:01;  author: root;  state: Exp;  lines: +1 -7
+all the  useless thingd=s are removed from main();.
+----------------------------
+revision 1.1
+date: 2015/07/10 09:34:04;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: compress.c,v
+Working file: compress.c
+head: 1.23
+branch:
+locks: strict
+	root: 1.23
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 23;	selected revisions: 23
+description:
+here ,also all command for compress insert into scripting file
+----------------------------
+revision 1.23	locked by: root;
+date: 2015/07/12 11:57:59;  author: root;  state: Exp;  lines: +1 -1
+include semicolon.
+----------------------------
+revision 1.22
+date: 2015/07/12 11:52:38;  author: root;  state: Exp;  lines: +1 -0
+include macro.
+----------------------------
+revision 1.21
+date: 2015/07/12 11:09:33;  author: root;  state: Exp;  lines: +2 -1
+arr declared as a char pointer.
+----------------------------
+revision 1.20
+date: 2015/07/12 11:00:10;  author: root;  state: Exp;  lines: +1 -1
+arr declare as a pointer.
+----------------------------
+revision 1.19
+date: 2015/07/12 10:55:11;  author: root;  state: Exp;  lines: +2 -2
+*** empty log message ***
+----------------------------
+revision 1.18
+date: 2015/07/12 10:48:52;  author: root;  state: Exp;  lines: +4 -3
+call the all fun() here which is require for compress data.
+----------------------------
+revision 1.17
+date: 2015/07/07 16:27:04;  author: root;  state: Exp;  lines: +2 -1
+include default case.
+----------------------------
+revision 1.16
+date: 2015/06/29 13:29:28;  author: root;  state: Exp;  lines: +1 -0
+*** empty log message ***
+----------------------------
+revision 1.15
+date: 2015/06/29 13:25:10;  author: root;  state: Exp;  lines: +2 -1
+*** empty log message ***
+----------------------------
+revision 1.14
+date: 2015/06/29 13:19:42;  author: root;  state: Exp;  lines: +1 -2
+*** empty log message ***
+----------------------------
+revision 1.13
+date: 2015/06/29 12:00:06;  author: root;  state: Exp;  lines: +0 -1
+*** empty log message ***
+----------------------------
+revision 1.12
+date: 2015/06/26 15:35:55;  author: root;  state: Exp;  lines: +12 -25
+remove the curly bracket from switch statement.
+also remove the last break statement.
+----------------------------
+revision 1.11
+date: 2015/06/26 15:32:04;  author: root;  state: Exp;  lines: +1 -0
+include another print statement at before the the end of switch statement.
+----------------------------
+revision 1.10
+date: 2015/06/26 15:27:34;  author: root;  state: Exp;  lines: +6 -1
+include the break statement of each stage in compress file.
+----------------------------
+revision 1.9
+date: 2015/06/26 13:51:01;  author: root;  state: Exp;  lines: +1 -0
+*** empty log message ***
+----------------------------
+revision 1.8
+date: 2015/06/26 13:36:00;  author: root;  state: Exp;  lines: +43 -3
+created 7 another compress file .
+however code length is diffrent.
+the way of compress is diffrent.
+----------------------------
+revision 1.7
+date: 2015/06/26 11:44:24;  author: root;  state: Exp;  lines: +1 -2
+print a string length.
+print a code length at a time
+----------------------------
+revision 1.6
+date: 2015/06/26 11:22:59;  author: root;  state: Exp;  lines: +1 -1
+print a string length
+----------------------------
+revision 1.5
+date: 2015/06/26 11:20:45;  author: root;  state: Exp;  lines: +1 -0
+string length is find
+----------------------------
+revision 1.4
+date: 2015/06/26 11:04:49;  author: root;  state: Exp;  lines: +1 -1
+keyword ekey is replaced with arr.
+because here master array is required.
+----------------------------
+revision 1.3
+date: 2015/06/26 11:02:56;  author: root;  state: Exp;  lines: +1 -0
+here,prototype declaration is given
+----------------------------
+revision 1.2
+date: 2015/06/26 10:58:10;  author: root;  state: Exp;  lines: +7 -15
+there is the use string length and code length in compress file
+master array has also required for compress file.
+pointer of master array has passed as argument.
+----------------------------
+revision 1.1
+date: 2015/06/26 09:21:16;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: compress_file2.c,v
+Working file: compress_file2.c
+head: 1.4
+branch:
+locks: strict
+	root: 1.4
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 4;	selected revisions: 4
+description:
+compress file is created.
+>> wenever code length is found then file is compressed in compressed file 1
+----------------------------
+revision 1.4	locked by: root;
+date: 2015/06/27 08:10:44;  author: root;  state: Exp;  lines: +2 -2
+change name.
+----------------------------
+revision 1.3
+date: 2015/06/26 15:22:17;  author: root;  state: Exp;  lines: +1 -1
+pass the argument.
+----------------------------
+revision 1.2
+date: 2015/06/26 13:58:13;  author: root;  state: Exp;  lines: +1 -1
+include.
+----------------------------
+revision 1.1
+date: 2015/06/26 13:26:27;  author: ravikumar;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: compress_file3.c,v
+Working file: compress_file3.c
+head: 1.4
+branch:
+locks: strict
+	root: 1.4
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 4;	selected revisions: 4
+description:
+compress file is created.
+wenever code length is found then file is compressed in compressed file 1
+not in file 1 in file4.
+----------------------------
+revision 1.4	locked by: root;
+date: 2015/06/27 08:11:01;  author: root;  state: Exp;  lines: +2 -2
+change name
+----------------------------
+revision 1.3
+date: 2015/06/26 15:22:47;  author: root;  state: Exp;  lines: +1 -1
+pass the argument
+----------------------------
+revision 1.2
+date: 2015/06/26 13:58:19;  author: root;  state: Exp;  lines: +1 -1
+include;.
+----------------------------
+revision 1.1
+date: 2015/06/26 13:26:27;  author: ravikumar;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: compress_file4.c,v
+Working file: compress_file4.c
+head: 1.39
+branch:
+locks: strict
+	root: 1.39
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 39;	selected revisions: 39
+description:
+compressed in file 5
+----------------------------
+revision 1.39	locked by: root;
+date: 2015/07/12 03:28:21;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.38
+date: 2015/07/12 03:24:39;  author: root;  state: Exp;  lines: +1 -1
+change the name of encrypt file to compress file.
+----------------------------
+revision 1.37
+date: 2015/07/10 10:54:57;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.36
+date: 2015/07/10 10:53:12;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.35
+date: 2015/07/10 10:52:02;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.34
+date: 2015/07/10 10:50:29;  author: root;  state: Exp;  lines: +0 -3
+*** empty log message ***
+----------------------------
+revision 1.33
+date: 2015/07/10 10:48:19;  author: root;  state: Exp;  lines: +1 -0
+*** empty log message ***
+----------------------------
+revision 1.32
+date: 2015/07/10 10:47:08;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.31
+date: 2015/07/10 10:45:37;  author: root;  state: Exp;  lines: +20 -17
+*** empty log message ***
+----------------------------
+revision 1.30
+date: 2015/07/09 19:24:24;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.29
+date: 2015/07/09 19:16:58;  author: root;  state: Exp;  lines: +3 -3
+*** empty log message ***
+----------------------------
+revision 1.28
+date: 2015/07/09 19:12:42;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.27
+date: 2015/07/09 19:11:05;  author: root;  state: Exp;  lines: +22 -22
+*** empty log message ***
+----------------------------
+revision 1.26
+date: 2015/07/09 19:07:20;  author: root;  state: Exp;  lines: +2 -2
+create a new file to write.
+----------------------------
+revision 1.25
+date: 2015/07/09 19:04:42;  author: root;  state: Exp;  lines: +2 -2
+*** empty log message ***
+----------------------------
+revision 1.24
+date: 2015/07/09 19:00:53;  author: root;  state: Exp;  lines: +2 -3
+*** empty log message ***
+----------------------------
+revision 1.23
+date: 2015/07/09 18:58:48;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.22
+date: 2015/07/09 18:53:55;  author: root;  state: Exp;  lines: +2 -2
+*** empty log message ***
+----------------------------
+revision 1.21
+date: 2015/07/09 18:47:13;  author: root;  state: Exp;  lines: +1 -1
+declare ekey.
+----------------------------
+revision 1.20
+date: 2015/07/09 18:44:28;  author: root;  state: Exp;  lines: +1 -0
+creae a encrypr to write encrypt data.
+----------------------------
+revision 1.19
+date: 2015/07/09 18:39:50;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.18
+date: 2015/07/09 18:38:59;  author: root;  state: Exp;  lines: +4 -4
+change from byt to byte
+----------------------------
+revision 1.17
+date: 2015/07/09 18:36:57;  author: root;  state: Exp;  lines: +17 -3
+aply the logic of compression.
+----------------------------
+revision 1.16
+date: 2015/07/09 18:15:43;  author: root;  state: Exp;  lines: +1 -1
+include %d.
+----------------------------
+revision 1.15
+date: 2015/07/09 18:14:47;  author: root;  state: Exp;  lines: +1 -0
+print another statement.
+----------------------------
+revision 1.14
+date: 2015/07/09 18:12:55;  author: root;  state: Exp;  lines: +1 -1
+include statement c is:
+----------------------------
+revision 1.13
+date: 2015/07/09 18:11:32;  author: root;  state: Exp;  lines: +4 -1
+convert int index into char c and print the value of c.
+----------------------------
+revision 1.12
+date: 2015/06/29 12:00:08;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.11
+date: 2015/06/29 11:48:48;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.10
+date: 2015/06/29 11:43:43;  author: root;  state: Exp;  lines: +2 -0
+*** empty log message ***
+----------------------------
+revision 1.9
+date: 2015/06/29 11:40:18;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.8
+date: 2015/06/29 11:33:26;  author: root;  state: Exp;  lines: +6 -2
+*** empty log message ***
+----------------------------
+revision 1.7
+date: 2015/06/29 11:29:03;  author: root;  state: Exp;  lines: +2 -1
+declare the char ch.
+----------------------------
+revision 1.6
+date: 2015/06/29 11:22:32;  author: root;  state: Exp;  lines: +1 -0
+print the value of index
+----------------------------
+revision 1.5
+date: 2015/06/29 11:04:05;  author: root;  state: Exp;  lines: +4 -0
+make a function file_index()
+read a char from file.
+----------------------------
+revision 1.4
+date: 2015/06/27 08:11:09;  author: root;  state: Exp;  lines: +2 -2
+change name.
+----------------------------
+revision 1.3
+date: 2015/06/26 15:22:57;  author: root;  state: Exp;  lines: +1 -1
+pass the argument
+----------------------------
+revision 1.2
+date: 2015/06/26 13:58:34;  author: root;  state: Exp;  lines: +1 -1
+include;.
+----------------------------
+revision 1.1
+date: 2015/06/26 13:26:27;  author: ravikumar;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: compress_file5.c,v
+Working file: compress_file5.c
+head: 1.4
+branch:
+locks: strict
+	root: 1.4
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 4;	selected revisions: 4
+description:
+compressed  in file 6.
+----------------------------
+revision 1.4	locked by: root;
+date: 2015/06/27 08:11:15;  author: root;  state: Exp;  lines: +2 -2
+change name.
+----------------------------
+revision 1.3
+date: 2015/06/26 14:03:10;  author: root;  state: Exp;  lines: +1 -1
+include
+----------------------------
+revision 1.2
+date: 2015/06/26 13:58:44;  author: root;  state: Exp;  lines: +1 -1
+include;.
+----------------------------
+revision 1.1
+date: 2015/06/26 13:26:27;  author: ravikumar;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: compress_file6.c,v
+Working file: compress_file6.c
+head: 1.4
+branch:
+locks: strict
+	root: 1.4
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 4;	selected revisions: 4
+description:
+code length is 7 then file is compressed.
+----------------------------
+revision 1.4	locked by: root;
+date: 2015/06/27 08:11:22;  author: root;  state: Exp;  lines: +2 -2
+change name.
+----------------------------
+revision 1.3
+date: 2015/06/26 15:23:04;  author: root;  state: Exp;  lines: +1 -1
+pass the argument
+----------------------------
+revision 1.2
+date: 2015/06/26 13:58:54;  author: root;  state: Exp;  lines: +1 -1
+include;.
+----------------------------
+revision 1.1
+date: 2015/06/26 13:26:27;  author: ravikumar;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: compress_file7.c,v
+Working file: compress_file7.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+----------------------------
+revision 1.1	locked by: root;
+date: 2015/06/27 08:18:45;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: header.h,v
+Working file: header.h
+head: 1.3
+branch:
+locks: strict
+	root: 1.3
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 3;	selected revisions: 3
+description:
+create a scripting file
+the scripting file is check that is included all command
+----------------------------
+revision 1.3	locked by: root;
+date: 2015/07/12 11:17:59;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2015/06/26 09:32:58;  author: root;  state: Exp;  lines: +0 -5
+remove the prototype declation from header file
+----------------------------
+revision 1.1
+date: 2015/06/26 09:21:16;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: prototype.h,v
+Working file: prototype.h
+head: 1.26
+branch:
+locks: strict
+	root: 1.26
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 26;	selected revisions: 26
+description:
+create a header file for prototype declaration
+----------------------------
+revision 1.26	locked by: root;
+date: 2015/07/13 07:15:45;  author: root;  state: Exp;  lines: +2 -0
+declare prototype of include file.
+----------------------------
+revision 1.25
+date: 2015/07/12 13:24:49;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.24
+date: 2015/07/12 13:08:47;  author: root;  state: Exp;  lines: +2 -4
+*** empty log message ***
+----------------------------
+revision 1.23
+date: 2015/07/12 13:06:24;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.22
+date: 2015/07/12 12:58:14;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.21
+date: 2015/07/12 12:56:50;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.20
+date: 2015/07/12 12:54:33;  author: root;  state: Exp;  lines: +2 -2
+*** empty log message ***
+----------------------------
+revision 1.19
+date: 2015/07/12 12:50:53;  author: root;  state: Exp;  lines: +9 -9
+*** empty log message ***
+----------------------------
+revision 1.18
+date: 2015/07/12 12:47:30;  author: root;  state: Exp;  lines: +2 -0
+include prototype for open file .
+----------------------------
+revision 1.17
+date: 2015/07/12 11:58:13;  author: root;  state: Exp;  lines: +1 -0
+include prototype of decompress fun()
+----------------------------
+revision 1.16
+date: 2015/07/12 11:53:03;  author: root;  state: Exp;  lines: +1 -0
+declare the prototype of main fun().
+----------------------------
+revision 1.15
+date: 2015/07/12 10:57:05;  author: root;  state: Exp;  lines: +1 -1
+change the prototype of compress fun()
+----------------------------
+revision 1.14
+date: 2015/07/12 10:49:40;  author: root;  state: Exp;  lines: +1 -1
+change the prototype declaration of compress fun().
+----------------------------
+revision 1.13
+date: 2015/06/29 13:19:42;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.12
+date: 2015/06/29 11:29:18;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.11
+date: 2015/06/29 11:11:31;  author: root;  state: Exp;  lines: +1 -0
+prototupes to prototype
+----------------------------
+revision 1.10
+date: 2015/06/27 12:10:41;  author: root;  state: Exp;  lines: +7 -7
+*** empty log message ***
+----------------------------
+revision 1.9
+date: 2015/06/27 11:52:50;  author: root;  state: Exp;  lines: +7 -6
+*** empty log message ***
+----------------------------
+revision 1.8
+date: 2015/06/27 11:50:58;  author: root;  state: Exp;  lines: +11 -11
+*** empty log message ***
+----------------------------
+revision 1.7
+date: 2015/06/27 11:28:21;  author: root;  state: Exp;  lines: +8 -8
+*** empty log message ***
+----------------------------
+revision 1.6
+date: 2015/06/27 11:25:33;  author: root;  state: Exp;  lines: +3 -3
+*** empty log message ***
+----------------------------
+revision 1.5
+date: 2015/06/27 08:11:30;  author: root;  state: Exp;  lines: +1 -1
+change name.
+----------------------------
+revision 1.4
+date: 2015/06/26 15:23:09;  author: root;  state: Exp;  lines: +6 -0
+declare the prototype for 7 other compress file.
+----------------------------
+revision 1.3
+date: 2015/06/26 11:15:24;  author: root;  state: Exp;  lines: +1 -1
+argument type has changed
+----------------------------
+revision 1.2
+date: 2015/06/26 11:11:08;  author: root;  state: Exp;  lines: +1 -1
+passed the return type as argument
+----------------------------
+revision 1.1
+date: 2015/06/26 09:43:17;  author: root;  state: Exp;
+Initial revision
+=============================================================================

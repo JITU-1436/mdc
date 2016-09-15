@@ -1,0 +1,84 @@
+head	1.4;
+access;
+symbols;
+locks
+	root:1.4; strict;
+comment	@ * @;
+
+
+1.4
+date	2015.06.27.08.11.15;	author root;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2015.06.26.14.03.10;	author root;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2015.06.26.13.58.44;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2015.06.26.13.26.27;	author ravikumar;	state Exp;
+branches;
+next	;
+
+
+desc
+@compressed  in file 6.
+@
+
+
+1.4
+log
+@change name.
+@
+text
+@#include"header.h"
+#include"prototype.h"
+int compress5(int fd , char* arr , int len)
+{
+	printf("compress5 file is:\n");
+	return 0;
+}
+
+@
+
+
+1.3
+log
+@include
+@
+text
+@d3 1
+a3 1
+int compress6(int fd , char* arr , int len)
+d5 1
+a5 1
+	printf("compress6 file is:\n");
+@
+
+
+1.2
+log
+@include;.
+@
+text
+@d3 1
+a3 1
+int compress6(int , char* , int)
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d5 1
+a5 1
+	printf("compress6 file is:\n")
+@

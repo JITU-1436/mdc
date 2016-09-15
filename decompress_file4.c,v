@@ -1,0 +1,1105 @@
+head	1.55;
+access;
+symbols;
+locks
+	root:1.55; strict;
+comment	@ * @;
+
+
+1.55
+date	2015.07.29.14.18.21;	author root;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2015.07.29.14.10.46;	author root;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2015.07.29.14.07.04;	author root;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2015.07.29.13.47.37;	author root;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2015.07.29.13.38.45;	author root;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2015.07.28.18.40.19;	author root;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2015.07.28.18.11.21;	author root;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2015.07.28.17.36.09;	author root;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2015.07.28.17.30.57;	author root;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2015.07.27.18.52.38;	author root;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2015.07.27.18.51.37;	author root;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2015.07.27.18.51.03;	author root;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2015.07.27.18.47.20;	author root;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2015.07.27.18.42.31;	author root;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2015.07.27.18.37.58;	author root;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2015.07.27.18.34.14;	author root;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2015.07.27.18.29.04;	author root;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2015.07.27.18.27.58;	author root;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2015.07.27.18.24.58;	author root;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2015.07.25.18.35.56;	author root;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2015.07.25.18.35.23;	author root;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2015.07.25.18.20.54;	author root;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2015.07.25.18.19.22;	author root;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2015.07.25.18.10.31;	author root;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2015.07.22.08.42.03;	author root;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2015.07.22.08.04.57;	author root;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2015.07.22.08.02.48;	author root;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2015.07.22.07.58.21;	author root;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2015.07.22.07.28.58;	author root;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2015.07.22.07.27.52;	author root;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2015.07.22.07.16.22;	author root;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2015.07.22.07.10.53;	author root;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2015.07.22.07.06.35;	author root;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2015.07.22.07.04.03;	author root;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2015.07.22.07.01.39;	author root;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2015.07.22.06.58.52;	author root;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2015.07.22.06.51.50;	author root;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2015.07.22.06.48.50;	author root;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2015.07.22.06.41.36;	author root;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2015.07.21.19.36.53;	author root;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2015.07.21.18.16.08;	author root;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2015.07.21.18.15.24;	author root;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2015.07.21.18.03.38;	author root;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2015.07.21.18.03.11;	author root;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2015.07.21.18.00.39;	author root;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2015.07.21.17.58.10;	author root;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2015.07.21.17.55.46;	author root;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2015.07.21.17.55.15;	author root;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2015.07.21.17.14.12;	author root;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2015.07.21.17.10.06;	author root;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2015.07.21.17.09.28;	author root;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2015.07.21.15.47.18;	author root;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2015.07.21.12.20.41;	author root;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2015.07.20.11.12.56;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2015.07.20.10.59.56;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@when cl is 4 then file is decompress.
+@
+
+
+1.55
+log
+@*** empty log message ***
+@
+text
+@#include"header.h"
+#include"prototype.h"
+int decompress4(int fd, char* arr , int len)
+{
+        printf("IN %s\n",__func__);
+        unsigned char ch,c,byte;
+        int pos,i,index,ekey;
+        printf("decompress4 file is:\n");
+        pos=lseek(fd,0,SEEK_SET);
+        ekey=open("decompress_file",O_WRONLY|O_CREAT);
+        printf("pos is %d \n",pos);
+        while(1)
+        {
+                read(fd,&ch,1);
+                if(ch == 10)
+                break;
+                c = ch; 
+                c = c >> 4;
+                printf("hex value is %x \n",c);
+                i = (int) c;
+                byte = *(arr+i);
+		printf("byte value is %c\n",byte);
+                write(ekey,&byte,1);
+                c = ch;
+		c = c << 4;
+		c = c >> 4;
+                i = (int) c;
+                byte = *(arr+i);
+                printf("hex value is %x \n",c);
+		printf("byte value is %c\n",*(arr+i));
+                write(ekey,&byte,1);
+        }
+        return 0;       
+}
+@
+
+
+1.54
+log
+@*** empty log message ***
+@
+text
+@d10 1
+a10 1
+        ekey=open("decompress_file",O_WRONLY|O_CREAT|O_APPEND);
+d25 1
+a26 1
+		c = c << 4;
+@
+
+
+1.53
+log
+@*** empty log message ***
+@
+text
+@a24 1
+                c = c << 4;
+d26 1
+@
+
+
+1.52
+log
+@*** empty log message ***
+@
+text
+@a13 3
+                //if(ch == 10)
+               // break;
+            //    byte=byte^byte;
+a20 3
+//              printf("value of i is %x \n",i);
+//              index=index_file(c,arr,len);
+//              printf("index is %d",index);
+a22 1
+//:                ekey = open("decompress_file",O_WRONLY|O_CREAT|O_APPEND);
+d25 2
+a26 1
+                c = c & 15;
+a30 2
+//              index = index_file(ch,arr,len);
+//              printf("index is %d",index);
+d33 1
+a33 2
+        return 0;
+        
+a34 1
+   
+@
+
+
+1.51
+log
+@*** empty log message ***
+@
+text
+@d14 4
+a19 2
+            //    byte=byte^byte;
+                read(fd,&ch,1);
+@
+
+
+1.50
+log
+@*** empty log message ***
+@
+text
+@d14 1
+a14 1
+                if(ch == '\0')
+@
+
+
+1.49
+log
+@*** empty log message ***
+@
+text
+@d14 1
+a14 1
+                if(ch == 10)
+@
+
+
+1.48
+log
+@*** empty log message ***
+@
+text
+@d20 1
+a20 1
+                printf("readed char is %x \n",c);
+d33 1
+a33 1
+                printf("readed char is %x \n",c);
+@
+
+
+1.47
+log
+@*** empty log message ***
+@
+text
+@d20 1
+a20 1
+               //:q printf("readed char is %x \n",c);
+d33 1
+@
+
+
+1.46
+log
+@*** empty log message ***
+@
+text
+@d27 1
+a27 1
+                ekey = open("decompress_file",O_WRONLY|O_CREAT|O_APPEND);
+@
+
+
+1.45
+log
+@*** empty log message ***
+@
+text
+@d26 1
+a26 1
+		printf("byte value is %c",byte);
+d33 1
+a33 1
+		printf("byte value is %c",*(arr+i));
+@
+
+
+1.44
+log
+@*** empty log message ***
+@
+text
+@d26 1
+a26 1
+		printf("byte value is %c",byte)
+d33 1
+a33 1
+		printf("byte value is %c",*(arr+i))
+@
+
+
+1.43
+log
+@*** empty log message ***
+@
+text
+@d16 1
+a16 1
+                byte=byte^byte;
+d20 1
+a20 1
+                printf("readed char is %x \n",c);
+d26 1
+d33 1
+@
+
+
+1.42
+log
+@*** empty log message ***
+@
+text
+@d5 5
+a9 5
+	printf("IN %s\n",__func__);
+	unsigned char ch,c,byte;
+	int pos,i,index,ekey;
+	printf("decompress4 file is:\n");
+	pos=lseek(fd,0,SEEK_SET);
+d11 2
+a12 2
+	printf("pos is %d \n",pos);
+	while(1)
+d16 1
+a16 1
+	        byte=byte^byte;
+d18 20
+a37 20
+		c = ch;	
+		c = c >> 4;
+		printf("readed char is %x \n",c);
+		i = (int) c;
+//		printf("value of i is %x \n",i);
+//		index=index_file(c,arr,len);
+//		printf("index is %d",index);
+		byte = *(arr+i);
+		ekey = open("decompress_file",O_WRONLY|O_CREAT|O_APPEND);
+		write(ekey,&byte,1);
+		c = ch;
+		c = c & 15;
+		i = (int) c;
+		byte = *(arr+i);
+//		index = index_file(ch,arr,len);
+//		printf("index is %d",index);
+		write(ekey,&byte,1);
+	}
+	return 0;
+	
+d39 1
+a39 1
+ 
+@
+
+
+1.41
+log
+@*** empty log message ***
+@
+text
+@d16 1
+a16 1
+//                byte=byte^byte;
+@
+
+
+1.40
+log
+@*** empty log message ***
+@
+text
+@d10 1
+a10 1
+        ekey=open("decompress_file",O_WRONLY|O_CREAT);
+d26 1
+a26 1
+		ekey = open("decompress_file",O_WRONLY|O_CREAT);
+@
+
+
+1.39
+log
+@*** empty log message ***
+@
+text
+@d10 1
+a10 1
+        ekey=open("compress_file",O_WRONLY|O_CREAT);
+@
+
+
+1.38
+log
+@*** empty log message ***
+@
+text
+@d7 1
+a7 1
+	int i,index,ekey;
+d9 1
+a9 1
+	is=lseek(fd,0,SEEK_SET);
+d11 1
+a11 1
+
+@
+
+
+1.37
+log
+@*** empty log message ***
+@
+text
+@d3 1
+a3 1
+int decompress4(int fd char* arr , int len)
+@
+
+
+1.36
+log
+@*** empty log message ***
+@
+text
+@d3 1
+a3 1
+int decompress4( char* arr , int len)
+d7 1
+a7 1
+	int i,index,fd,ekey;
+d9 3
+a11 1
+	fd = open_cfile();
+@
+
+
+1.35
+log
+@*** empty log message ***
+@
+text
+@d6 1
+a6 1
+	unsigned char ch,c;
+@
+
+
+1.34
+log
+@*** empty log message ***
+@
+text
+@d6 1
+a6 1
+	unsigned char ch,c, byte;
+d14 1
+a14 1
+                byte=byte^byte;
+d22 1
+a22 1
+		printf("index is %d",index);
+d29 1
+a31 1
+		byte = *(arr+i);
+@
+
+
+1.33
+log
+@*** empty log message ***
+@
+text
+@d25 1
+a25 1
+		write(ekey,byte,1);
+d32 1
+a32 1
+		write(ekey,byte,1);
+@
+
+
+1.32
+log
+@*** empty log message ***
+@
+text
+@d6 1
+a6 1
+	unsigned char ch,c;
+d14 1
+a14 1
+//                byte=byte^byte;
+d20 2
+a21 2
+		printf("value of i is %x \n",i);
+		index=index_file(c,arr,len);
+d23 1
+a23 4
+		if(i == index)
+		{
+			printf("%c \n",*(arr+i));
+		}
+d25 1
+a25 1
+		write(ekey,arr,1);
+d29 4
+a32 7
+		index = index_file(ch,arr,len);
+		printf("index is %d",index);
+		if( i == index )
+		{
+			printf("%c \n",*(arr+i));	
+		}
+		write(ekey,arr,1);
+@
+
+
+1.31
+log
+@*** empty log message ***
+@
+text
+@d19 1
+a19 1
+		i = (char) c;
+d31 1
+a31 3
+		c = c << 4;
+		c = c >> 4;
+		i = (char) c;
+@
+
+
+1.30
+log
+@*** empty log message ***
+@
+text
+@d7 1
+a7 1
+	unsigned int i,index,fd,ekey;
+d12 1
+a12 1
+                if(ch==10)
+@
+
+
+1.29
+log
+@*** empty log message ***
+@
+text
+@d7 1
+a7 1
+	int i,index,fd,ekey;
+@
+
+
+1.28
+log
+@*** empty log message ***
+@
+text
+@d18 1
+a18 1
+		printf("readed char is %c \n",c);
+@
+
+
+1.27
+log
+@*** empty log message ***
+@
+text
+@d6 1
+a6 1
+	char ch,c;
+@
+
+
+1.26
+log
+@*** empty log message ***
+@
+text
+@d20 1
+a20 1
+		printf("value of i is %d \n",i);
+@
+
+
+1.25
+log
+@*** empty log message ***
+@
+text
+@d17 1
+a17 1
+		c >> 4;
+@
+
+
+1.24
+log
+@*** empty log message ***
+@
+text
+@d7 1
+a7 1
+	int i,index,mkey,ekey;
+d9 1
+a9 1
+	mkey=open_cfile();
+d15 1
+a15 1
+                read(mkey,&ch,1);
+@
+
+
+1.23
+log
+@*** empty log message ***
+@
+text
+@d3 1
+a3 1
+int decompress4(int fd , char* arr , int len)
+@
+
+
+1.22
+log
+@*** empty log message ***
+@
+text
+@d7 1
+a7 1
+	int i,index,ekey;
+d9 1
+a9 1
+	fd=open_cfile();
+d15 1
+a15 1
+                read(fd,&ch,1);
+@
+
+
+1.21
+log
+@*** empty log message ***
+@
+text
+@d20 1
+@
+
+
+1.20
+log
+@*** empty log message ***
+@
+text
+@d18 1
+@
+
+
+1.19
+log
+@*** empty log message ***
+@
+text
+@d19 1
+a19 1
+		index=index_file(ch,arr,len);
+@
+
+
+1.18
+log
+@*** empty log message ***
+@
+text
+@d20 1
+d33 1
+@
+
+
+1.17
+log
+@*** empty log message ***
+@
+text
+@a16 12
+/*		out:
+		{
+			c = ch;
+			c = c << 4;
+			c = c >> 4;
+			i = (char) c;           
+       	        	index=index_file(ch,arr,len);
+             		if( i == index)
+                	//ekey = open("decompress_file",O_WRONLY|O_CREAT);
+                	write(ekey,arr,1);
+
+		}*/
+d21 3
+d27 1
+d30 7
+a36 1
+		goto out;
+@
+
+
+1.16
+log
+@*** empty log message ***
+@
+text
+@d17 1
+a17 1
+		out:
+d28 1
+a28 1
+		}
+d35 3
+@
+
+
+1.15
+log
+@*** empty log message ***
+@
+text
+@a24 3
+                	{
+                	        printf("%c\n",*(arr+i));
+                	}
+d32 1
+a32 4
+		if( i == index)
+		{
+			printf("%c\n",*(arr+i));
+		}
+@
+
+
+1.14
+log
+@*** empty log message ***
+@
+text
+@d42 1
+@
+
+
+1.13
+log
+@*** empty log message ***
+@
+text
+@d17 15
+a41 12
+out:
+		c = ch;
+		c = c << 4;
+		c = c >> 4;
+		i = (char) c;
+		index = index_file(ch,arr,len);
+		if( i == index)
+		{
+			printf("%c\n",*(arr+i));
+		}
+	write(ekey,arr,1);
+	}
+@
+
+
+1.12
+log
+@*** empty log message ***
+@
+text
+@d31 1
+a31 1
+		i = (char) c
+@
+
+
+1.11
+log
+@*** empty log message ***
+@
+text
+@d31 1
+@
+
+
+1.10
+log
+@*** empty log message ***
+@
+text
+@d29 1
+a30 1
+		c = c << 4;
+@
+
+
+1.9
+log
+@*** empty log message ***
+@
+text
+@d5 1
+a5 1
+	printf("%s",__func__);
+@
+
+
+1.8
+log
+@*** empty log message ***
+@
+text
+@d32 1
+a32 1
+		if( i == inex)
+@
+
+
+1.7
+log
+@*** empty log message ***
+@
+text
+@d7 1
+a7 1
+	int i,index;
+d24 14
+a37 3
+
+	} 
+
+d39 1
+@
+
+
+1.6
+log
+@*** empty log message ***
+@
+text
+@d22 1
+a22 1
+			printf("%s",*(arr+i));
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@d14 1
+a14 1
+                byte=byte^byte;
+@
+
+
+1.4
+log
+@include macro.
+@
+text
+@d18 1
+a18 1
+		i = atoi(c);
+@
+
+
+1.3
+log
+@compress replace by decompress.
+@
+text
+@d5 3
+d9 18
+d29 1
+a29 1
+
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d5 1
+a5 1
+	printf("compress4 file is:\n");
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d5 1
+a5 1
+	printf("compress2 file is:\n");
+@

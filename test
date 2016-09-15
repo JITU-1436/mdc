@@ -1,0 +1,136 @@
+#! /bin/bash
+
+ci mdc.c
+ci header.h
+ci compress.c
+ci main_menu.c
+ci decompress.c
+ci compress_file2.c
+ci compress_file3.c
+ci compress_file4.c
+ci compress_file5.c
+ci compress_file6.c
+ci compress_file7.c
+ci prototype.h
+ci index_file.c
+ci open_file.c
+ci create_masterarray.c
+ci s_masterarray.c
+ci c_length.c
+ci open_cfile.c
+ci decompress_file2.c
+ci decompress_file3.c
+ci decompress_file4.c
+ci decompress_file5.c
+ci decompress_file6.c
+ci decompress_file7.c
+ci exit_file.c
+ci operation.c
+
+co mdc.c
+co header.h
+co compress.c
+co main_menu.c
+co decompress.c
+co compress_file2.c
+co compress_file3.c
+co compress_file4.c
+co compress_file5.c
+co compress_file6.c
+co compress_file7.c
+co index_file.c
+co prototype.h
+co open_file.c
+co create_masterarray.c
+co s_masterarray.c
+co open_cfile.c
+co c_length.c
+co decompress_file2.c
+co decompress_file3.c
+co decompress_file4.c
+co decompress_file5.c
+co decompress_file6.c
+co decompress_file7.c
+co exit_file.c
+co operation.c
+
+gcc -c mdc.c
+gcc -c compress.c
+gcc -c main_menu.c
+gcc -c decompress.c
+gcc -c compress_file2.c
+gcc -c compress_file3.c
+gcc -c compress_file4.c
+gcc -c compress_file5.c
+gcc -c compress_file6.c
+gcc -c compress_file7.c
+gcc -c index_file.c
+gcc -c open_file.c
+gcc -c create_masterarray.c
+gcc -c s_masterarray.c
+gcc -c c_length.c
+gcc -c open_cfile.c
+gcc -c decompress_file2.c
+gcc -c decompress_file3.c
+gcc -c decompress_file4.c
+gcc -c decompress_file5.c
+gcc -c decompress_file6.c
+gcc -c decompress_file7.c
+gcc -c exit_file.c
+gcc -c operation.c
+
+gcc -o mdc mdc.o compress.o compress_file2.o compress_file3.o compress_file4.o compress_file5.o compress_file6.o compress_file7.o index_file.o main_menu.o decompress.o open_file.o create_masterarray.o s_masterarray.o c_length.o open_cfile.o decompress_file2.o decompress_file3.o decompress_file4.o decompress_file5.o decompress_file6.o decompress_file7.o exit_file.o operation.o
+
+./mdc
+
+rm mdc.o
+rm compress.o
+rm main_menu.o
+rm decompress.o
+rm compress_file2.o
+rm compress_file3.o
+rm compress_file4.o
+rm compress_file5.o
+rm compress_file6.o
+rm compress_file7.o
+rm index_file.o
+rm open_file.o
+rm create_masterarray.o
+rm s_masterarray.o
+rm c_length.o
+rm decompress_file2.o
+rm decompress_file3.o
+rm decompress_file4.o
+rm decompress_file5.o
+rm decompress_file6.o
+rm decompress_file7.o
+rm exit_file.o
+rm operation.o
+
+
+co -l mdc.c
+co -l compress.c
+co -l main_menu.c
+co -l decompress.c
+co -l header.h
+co -l prototype.h
+co -l compress_file2.c
+co -l compress_file3.c
+co -l compress_file4.c
+co -l compress_file5.c
+co -l compress_file6.c
+co -l compress_file7.c
+co -l index_file.c
+co -l open_file.c
+co -l create_masterarray.c
+co -l s_masterarray.c
+co -l c_length.c
+co -l open_cfile.c
+co -l decompress_file2.c
+co -l decompress_file3.c
+co -l decompress_file4.c
+co -l decompress_file5.c
+co -l decompress_file6.c
+co -l decompress_file7.c
+co -l exit_file.c
+co -l operation.c

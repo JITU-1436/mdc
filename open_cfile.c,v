@@ -1,0 +1,69 @@
+head	1.3;
+access;
+symbols;
+locks
+	root:1.3; strict;
+comment	@ * @;
+
+
+1.3
+date	2015.07.15.07.56.10;	author root;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2015.07.13.07.11.32;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2015.07.13.07.06.52;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@create a file to open compress file.
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@#include"header.h"
+#include"prototype.h"
+int open_cfile()
+{
+	printf("IN %s\n",__func__);
+        int fd;
+        fd = open("compress_file",O_RDONLY);
+        printf(" fd=%d \n",fd);
+        if(fd==-1)
+        {
+                perror("open");
+                return -1;
+        }
+        return fd;
+}
+@
+
+
+1.2
+log
+@print file name.
+@
+text
+@a11 1
+
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d5 1
+@

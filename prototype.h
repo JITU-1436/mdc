@@ -1,0 +1,24 @@
+extern int open_file();
+int c_length(int);
+int s_masterarray(char*,int);
+extern int compress();
+extern char* create_masterarray(int);
+extern int decompress();
+extern int main_menu();
+extern int compress2(int , char* ,int);
+extern int compress3(int , char* ,int);
+extern int compress4(int , char* ,int);
+extern int compress5(int , char* ,int);
+extern int compress6(int , char* ,int);
+extern int compress7(int , char* ,int);
+extern int index_file(char, char* ,int);
+extern int open_cfile();
+extern int decompress2(int, char* ,int);
+extern int decompress3(int, char* ,int);
+extern int decompress4(int, char* ,int);
+extern int decompress5(int, char* ,int);
+extern int decompress6(int, char* ,int);
+extern int decompress7(int, char* ,int);
+extern void exit_file();
+extern int operation(int);
+

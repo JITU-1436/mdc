@@ -1,0 +1,49 @@
+head	1.2;
+access;
+symbols;
+locks
+	root:1.2; strict;
+comment	@ * @;
+
+
+1.2
+date	2015.07.27.18.27.22;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2015.07.26.12.42.09;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@the program of compress and decompress the file.
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@#include"header.h"
+#include"prototype.h"
+int decompress3(int fd, char* arr , int len)
+{
+	printf("compress2 file is:\n");
+	return 0;
+}
+
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d3 1
+a3 1
+int decompress3( char* arr , int len)
+@

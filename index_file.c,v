@@ -1,0 +1,54 @@
+head	1.2;
+access;
+symbols;
+locks
+	root:1.2; strict;
+comment	@ * @;
+
+
+1.2
+date	2015.07.27.17.37.11;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2015.07.10.09.34.26;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@#include"header.h"
+#include"prototype.h"
+int index_file(char ch,char* arr,int len)
+{
+	int i;
+	for(i=0;i<len;i++)
+	{
+		if(ch==*(arr+i))
+		{
+			return i;
+		}
+	}
+	return 0;
+}
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d13 1
+a13 1
+	return -1;
+@

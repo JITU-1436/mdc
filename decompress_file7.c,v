@@ -1,0 +1,66 @@
+head	1.3;
+access;
+symbols;
+locks
+	root:1.3; strict;
+comment	@ * @;
+
+
+1.3
+date	2015.07.27.18.27.23;	author root;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2015.07.22.07.13.00;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2015.07.20.10.59.56;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@when cl is 7 then file is decompress.
+,
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@#include"header.h"
+#include"prototype.h"
+int decompress7(int fd, char* arr , int len)
+{
+	printf("compress7 file is:\n");
+	return 0;
+}
+
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d3 1
+a3 1
+int decompress7( char* arr , int len)
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d3 1
+a3 1
+int decompress7(int fd , char* arr , int len)
+@

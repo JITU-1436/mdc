@@ -1,0 +1,26 @@
+#! /bin/bash
+
+co -l mdc.c
+co -l compress.c
+co -l main_menu.c
+co -l decompress.c
+co -l header.h
+co -l prototype.h
+co -l compress_file2.c
+co -l compress_file3.c
+co -l compress_file4.c
+co -l compress_file5.c
+co -l compress_file6.c
+co -l compress_file7.c
+co -l index_file.c
+co -l open_file.c
+co -l create_masterarray.c
+co -l s_masterarray.c
+co -l c_length.c
+co -l open_cfile.c
+co -l decompress_file2.c
+co -l decompress_file3.c
+co -l decompress_file4.c
+co -l decompress_file5.c
+co -l decompress_file6.c
+co -l decompress_file7.c

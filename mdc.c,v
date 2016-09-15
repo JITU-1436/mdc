@@ -1,0 +1,508 @@
+head	1.21;
+access;
+symbols;
+locks
+	root:1.21; strict;
+comment	@ * @;
+
+
+1.21
+date	2015.08.26.15.05.29;	author root;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2015.08.26.14.54.57;	author root;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2015.08.26.14.53.48;	author root;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2015.08.25.18.28.02;	author root;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2015.08.25.18.26.25;	author root;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2015.08.25.18.22.29;	author root;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2015.08.25.18.21.07;	author root;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2015.08.25.18.15.56;	author root;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2015.08.25.18.08.55;	author root;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2015.08.25.18.06.35;	author root;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2015.07.21.15.46.17;	author root;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2015.07.13.06.04.43;	author root;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2015.07.12.12.43.01;	author root;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2015.07.12.12.20.26;	author root;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2015.07.12.12.11.15;	author root;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2015.07.12.12.08.22;	author root;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2015.07.12.11.51.56;	author root;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2015.07.12.11.19.48;	author root;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2015.07.12.11.14.43;	author root;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2015.07.12.10.48.01;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2015.07.10.09.34.04;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.21
+log
+@*** empty log message ***
+@
+text
+@#include"header.h"
+#include"prototype.h"
+int main()
+{
+	printf("___MAIN_MENU___");
+	int choice;
+	while(1)
+	{
+		choice = main_menu();
+		operation(choice);
+	}
+	return 0;
+}
+@
+
+
+1.20
+log
+@*** empty log message ***
+@
+text
+@a2 1
+int operation(int);
+a11 17
+int operation(int choice)
+{
+	switch(choice)
+	{
+		case 1:
+			compress();
+			break;
+		case 2:
+			decompress();
+			break;
+		case 3:
+			exit_file();
+		default:
+			printf("enter the correct choice:\n");
+			break;
+	}
+}
+@
+
+
+1.19
+log
+@*** empty log message ***
+@
+text
+@d8 2
+a9 2
+//	while(1)
+//	{
+d12 1
+a12 1
+//	}
+@
+
+
+1.18
+log
+@*** empty log message ***
+@
+text
+@d8 2
+a9 2
+	while(1)
+	{
+d12 1
+a12 1
+	}
+@
+
+
+1.17
+log
+@*** empty log message ***
+@
+text
+@d3 1
+a3 1
+int operation(int)
+@
+
+
+1.16
+log
+@*** empty log message ***
+@
+text
+@d3 1
+d11 1
+d13 2
+d29 1
+@
+
+
+1.15
+log
+@*** empty log message ***
+@
+text
+@a20 1
+			break;
+@
+
+
+1.14
+log
+@*** empty log message ***
+@
+text
+@d20 1
+a20 1
+			exit();
+@
+
+
+1.13
+log
+@*** empty log message ***
+@
+text
+@d20 1
+a20 1
+			exit(EXIT_FAILURE);
+@
+
+
+1.12
+log
+@*** empty log message ***
+@
+text
+@d20 1
+a20 1
+			exit(EXIT_SUCCESS);
+@
+
+
+1.11
+log
+@include macro.
+@
+text
+@d7 4
+a10 1
+	choice = main_menu();
+@
+
+
+1.10
+log
+@remove all part which is not require in mdc file.
+@
+text
+@d5 1
+@
+
+
+1.9
+log
+@*** empty log message ***
+@
+text
+@a23 54
+int s_masterarray(char *arr ,int i)
+{
+
+	int ekey;
+	ekey=open("new",O_WRONLY|O_CREAT);
+	printf(" ekey=%d\n",ekey);
+	if(ekey==-1)
+	{
+		printf("open in file error");
+		return 0;
+	}	
+	write(ekey,arr,i);
+}
+int c_length(int i)
+{
+	int cl;
+	if(i<4)
+	{	
+		cl=2;
+		printf("cl=%d",cl);
+	}
+
+	else if(i<8)
+	{
+		cl=3;
+		printf("cl=%d",cl);
+	}
+	else if(i<16)
+	{	
+		cl=4;
+		printf("cl=%d",cl);
+	}
+	else if(i<32)
+	{
+		cl=5;
+		printf("cl=%d",cl);
+	}
+	else if(i<64)
+	
+	{
+		cl=6;
+		printf("cl=%d",cl);
+	}
+	else if(i<128)
+	{
+		cl=7;
+		printf("cl=%d",cl);
+	}
+	else if(i<256)
+	{
+		cl=8;
+		printf("cl=%d",cl);
+	}
+}
+@
+
+
+1.8
+log
+@*** empty log message ***
+@
+text
+@a23 47
+char* create_masterarray(int fd)
+{
+	int i,count=1;
+	int j;
+	char ch, *arr= NULL;
+	arr=(char*)realloc(arr,i+1);
+	int flag=0;
+	i=0;
+	while(count!=0)
+	{
+		count =read(fd,&ch,1);
+		printf("%d \n",count);
+		if(ch==10)
+		break;
+		for(j=0;j<i;j++)
+		{
+			 if( ch==*(arr+j))
+			{
+				flag = 1;
+				break;
+			}
+		}
+		 
+		if(flag==0)
+		{	
+		*(arr+i) = ch;
+		i++;
+		}
+		flag=0;
+	
+	}
+	printf("%s\n",arr);
+	return arr;
+}
+int open_file(void)
+{
+	int fd;
+	fd = open("hello",O_RDONLY);
+	printf(" fd=%d \n",fd);
+	if(fd==-1)
+	{
+		perror("open");
+
+		return -1;
+	}
+	return fd;
+}
+@
+
+
+1.7
+log
+@include end of line.
+@
+text
+@d7 1
+a7 1
+	while(1)
+d9 12
+a20 15
+		switch(choice)
+		{
+			case 1:
+				compress();
+				break;
+			case 2:
+				decompress();
+				break;
+			case 3:
+				exit(EXIT_SUCCESS);
+				break;
+			default:
+				printf("enter the correct choice:\n");
+				break;
+		}
+@
+
+
+1.6
+log
+@include ehile loop to enter the choice again and again.
+@
+text
+@d21 3
+a23 1
+		}		printf("enter the correct choice:\n")
+@
+
+
+1.5
+log
+@call the main fun().
+@
+text
+@d7 1
+a7 1
+	switch(choice)
+d9 13
+a21 6
+		case 1:
+			compress();
+			break;
+		case 2:
+			decompress();
+			break;
+@
+
+
+1.4
+log
+@include the header file.
+@
+text
+@d5 11
+a15 1
+	compress();
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d1 2
+@
+
+
+1.2
+log
+@all the  useless thingd=s are removed from main();.
+@
+text
+@d10 1
+a10 2
+	char ch, *arr;
+	arr= NULL;
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@a0 2
+#include"header.h"
+#include"prototype.h"
+d3 1
+a3 5
+	int  fd;
+	char *arr, c;
+	fd=open_file();
+	arr=create_masterarray(fd);
+	compress(fd ,arr);
+@
